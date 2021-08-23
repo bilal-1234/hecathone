@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+	<title>Sign In</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<head>
+	
+
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+
+
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+
+<script>
+  var firebaseConfig = {
+    apiKey: "AIzaSyCx8-CdF63RBZm3uOuWt6pZ1HPujPds0gU",
+    authDomain: "storage-59c83.firebaseapp.com",
+    databaseURL: "https://storage-59c83-default-rtdb.firebaseio.com",
+    projectId: "storage-59c83",
+    storageBucket: "storage-59c83.appspot.com",
+    messagingSenderId: "1041335160152",
+    appId: "1:1041335160152:web:4c77bab61f20926299a92d",
+    measurementId: "G-398DZRHP26"
+  };
+
+  firebase.initializeApp(firebaseConfig);
+ 
+</script>
+
+  
+</script>
+<body class="img js-fullheight" style="background-image: url(images/volkan-vardar-1H30uRC1plc-unsplash.jpg);">
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-md-6 text-center mb-5 mt-5">
+				<h2 class="heading-section" style="color: cornflowerblue;">Sign In</h2>
+			</div>
+		</div>
+		<div class="row justify-content-center">
+			<div class="col-md-6 col-lg-4">
+				<div class="login-wrap p-0">
+					<h3 class="mb-4 text-center">Have an account?</h3>
+					<div class="form-group">
+						<input id="Email2" type="email" class="form-control" placeholder="Email" required>
+					</div>
+					<div class="form-group">
+						<input id="pass2" type="password" class="form-control" placeholder="Password" required>
+					</div>
+					<div class="form-group">
+						<button type="submit" class="form-control btn btn-success submit px-3" onclick="Signin()" style="background-color: cornflowerblue;">Sign
+							In</button>
+					</div>
+					
+					<div>
+						<p style="color:darkcyan; font-size:  larger;">Don't Have an Account? <a href="signup.html"> Signup Here</a></p>
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/main.js"></script>
+	
+</body>
+<script src="App.js"></script>
+
+</html>
